@@ -63,17 +63,17 @@ Note: gunakan ```npm install``` jika dependensi tidak muncul saat clone
 
 ## 🔗 Daftar API
 ### 🔐 AUTH
-```POST /api/auth/register``` — registrasi pengguna
+```POST /api/auth/register``` — registrasi pengguna <br>
 ```POST /api/auth/login``` — login (mengembalikan token JWT)
 
 ### 📝 POSTS
-```POST /api/posts``` — membuat postingan baru (butuh token)
-```GET /api/posts``` — daftar semua postingan
-```GET /api/posts/:id``` — detail 1 postingan berdasarkan ID
-```PUT /api/posts/:id``` — edit postingan (butuh token; hanya pemilik)
+```POST /api/posts``` — membuat postingan baru (butuh token) <br>
+```GET /api/posts``` — daftar semua postingan <br>
+```GET /api/posts/:id``` — detail 1 postingan berdasarkan ID <br>
+```PUT /api/posts/:id``` — edit postingan (butuh token; hanya pemilik) <br>
 ```DELETE /api/posts/:id``` — hapus postingan (butuh token; hanya pemilik)
 
-###🖼 UPLOAD
+### 🖼 UPLOAD
 ```POST /api/upload/image``` — upload gambar (multipart/form-data; field image)
 
 ---
