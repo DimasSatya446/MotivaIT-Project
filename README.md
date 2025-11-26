@@ -40,3 +40,41 @@ Pastikan untuk mengclone repo ini dengan ```git clone``` dan masuk ke folder bac
 ```
 cd backend
 ```
+Buat file ```.env``` dengan konfigurasi mongoDB
+```
+JWT_SECRET= {secret key} 
+MONGO_URI=mongodb+srv://....
+```
+Lalu jalankan menggunakan
+```
+npm run dev
+```
+Note: gunakan ```npm install``` jika dependensi tidak muncul saat clone
+### Frontend
+Pastikan untuk mengclone repo ini dengan ```git clone``` dan masuk ke folder frontend
+```
+cd frontend
+```
+Jalankan frontend dengan
+```
+npm start
+```
+Note: gunakan ```npm install``` jika dependensi tidak muncul saat clone
+
+## 🔗 Daftar API
+### 🔐 AUTH
+```POST /api/auth/register``` — registrasi pengguna
+```POST /api/auth/login``` — login (mengembalikan token JWT)
+
+### 📝 POSTS
+```POST /api/posts``` — membuat postingan baru (butuh token)
+```GET /api/posts``` — daftar semua postingan
+```GET /api/posts/:id``` — detail 1 postingan berdasarkan ID
+```PUT /api/posts/:id``` — edit postingan (butuh token; hanya pemilik)
+```DELETE /api/posts/:id``` — hapus postingan (butuh token; hanya pemilik)
+
+###🖼 UPLOAD
+```POST /api/upload/image``` — upload gambar (multipart/form-data; field image)
+
+---
+🚀 Happy Vibe Coding! 🚀
