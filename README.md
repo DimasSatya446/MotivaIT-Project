@@ -1,1 +1,1 @@
-# MotivaIT - MotivaIT — Share Your Motivation, Boost Someone’s Day.
+# MotivaIT — Share Your Motivation, Boost Someone’s Day.
