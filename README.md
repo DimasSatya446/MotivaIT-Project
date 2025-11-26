@@ -10,6 +10,10 @@ MotivaIT hadir untuk mengatasi permasalahan berikut:
 - Menjadi tempat bercerita dan berbagi bersama
 
 ## 🧩 Fitur utama
+- Registrasi dan login: Menggunakan JWT dan bcrypt
+- Motivation card: Dilengkapi dengan CRUD
+- Upload gambar: Menggunakan Multer
+- Musik: Embed Spotify/YouTube (iframe handler)
 
 ## ⚙️ Tech Stack
 ### Backend
@@ -29,3 +33,10 @@ MotivaIT hadir untuk mengatasi permasalahan berikut:
 - Autoprefixer
 - HTML5 Audio Player
 - JavaScript ES6+
+
+## ⚡ Instalasi
+### Backend
+Pastikan untuk mengclone repo ini dengan ```git clone``` dan masuk ke folder backend
+```
+cd backend
+```
