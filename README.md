@@ -1,3 +1,3 @@
 # MotivaIT — Share Your Motivation, Boost Someone’s Day. ❤️‍🔥❤️‍🔥❤️‍🔥
-**MotivaIT** merupakan sebuah web yang memungkinkan pengguna nya mengirimkan sebuah pesan penyemangat, motivasi, pujian, dan lainnya secara anonymous.
+Pernah merasa kehilangan motivasi saat melakukan sesuatu? atau kamu pernah ingin memberi sebuah semangat kepada seseorang tapi merasa malu? Tenang saja karena **MotivaIT** hadir untuk mengatasi hal tersebut
 
